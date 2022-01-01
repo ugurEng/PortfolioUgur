@@ -8,7 +8,7 @@ function CommercialProjects() {
   const [posts, setPosts] = useState([])
 
   useEffect( ()=>{
-    axios.get("http://localhost:5002/coaching")
+    axios.get("https://portfoliougur.herokuapp.com/coaching")
     .then(res=> {
       setPosts(res.data)
     })
