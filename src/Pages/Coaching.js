@@ -9,7 +9,7 @@ function Mentoring() {
   const [posts, setPosts] = useState([])
 
   useEffect( ()=>{
-    axios.get("http://node-env.eba-zqav6syd.us-east-2.elasticbeanstalk.com/coaching")
+    axios.get("http://localhost:5002/coaching")
     .then(res=> {
       setPosts(res.data)
     })
