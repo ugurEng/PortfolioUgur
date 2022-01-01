@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react'
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import Home from './Pages/Home';
 import Coaching from "./Pages/Coaching";
@@ -30,7 +31,6 @@ function App() {
           <Route path="/ContactUs.js" component={ContactUs}/>
           <Route path="/AboutMe.js" component={AboutMe}/>
           <Route path="/Services.js" component={Services}/>
-          
         </Switch>
       </div>
     </Router>

@@ -23,7 +23,7 @@ function Admin() {
       projectimage: data.projectimage
 
     };
-    axios.post(`http://localhost:5002/projects/add`, postData)
+    axios.post(`http://localhost:5002/commercial/add`, postData)
       .then(res => {
         console.log(res.data)
         var x = document.getElementById("adsa");
