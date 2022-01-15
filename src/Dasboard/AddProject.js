@@ -10,7 +10,8 @@ function Admin() {
     projectname: "",
     projectdesc: "",
     projectselect: "",
-    projectimage: ""
+    projectimage: "",
+    projectlink: ""
 
   })
 
@@ -20,7 +21,8 @@ function Admin() {
       projectname: data.projectname,
       projectdesc: data.projectdesc,
       projectselect: data.projectselect,
-      projectimage: data.projectimage
+      projectimage: data.projectimage,
+      projectlink: data.projectlink,
 
     };
     axios.post(`http://localhost:5002/commercial/add`, postData)
@@ -33,6 +35,8 @@ function Admin() {
         }
         setTimeout(myGreeting, 3000)
       })
+
+      console.log(data)
   }
 
   function handle(e) {
@@ -54,7 +58,18 @@ function Admin() {
     selectdata[e.target.id] = e.target.value
     setData(selectdata)
     console.log(selectdata)
+    console.log(data)
   }
+
+
+  function addGitLink(e) {
+    const selectdata = { ...data }
+    selectdata[e.target.id] = e.target.value
+    setData(selectdata)
+    console.log(selectdata)
+  }
+
+
 
   return <div>
     <NavComponent/>
@@ -136,6 +151,10 @@ function Admin() {
                 <div class="form-group-sm ada">
                   <label class="labell" for="exampleFormControlInput1">Project Image Link</label>
                   <input onChange={(e) => handlelink(e)} class="form-control" id="projectimage" value={data.projectimage} />
+                </div>
+                 <div class="form-group-sm ada">
+                  <label class="labell" for="exampleFormControlInput1">Project Github Link</label>
+                  <input onChange={(e) => addGitLink(e)} class="form-control" id="projectlink" value={data.projectlink} />
                 </div>
                 <div class="form-group-sm ada">
                   <label class="labell" for="exampleFormControlTextarea1">Project Description</label>

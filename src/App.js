@@ -13,6 +13,7 @@ import AdminShopify from './Dasboard/AdminShopify';
 import ContactUs from './Pages/ContactUs';
 import AboutMe from './Pages/AboutMe';
 import Services from './Pages/Services';
+import Projectpage from './Pages/Projectpage';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/ContactUs.js" component={ContactUs}/>
           <Route path="/AboutMe.js" component={AboutMe}/>
           <Route path="/Services.js" component={Services}/>
+          <Route path="/Projectpage.js/:id" component={Projectpage}/>
         </Switch>
       </div>
     </Router>

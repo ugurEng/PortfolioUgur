@@ -1,17 +1,25 @@
 import React, { useState, useEffect } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import "./Projects.css"
 import axios from "axios"
+import { Link } from 'react-router-dom';
+
+
+
 
 
 function Projects() {
-
   const [posts, setPosts] = useState([])
   useEffect(() => {
-    axios.get("https://portfoliougur.herokuapp.com/coaching")
-      .then(res => {
-        setPosts(res.data)
-      })
+    axios.all([axios.get("http://localhost:5002/coaching"),
+           axios.get("http://localhost:5002/commercial")
+       ])
+     .then(axios.spread((firstResponse, secondResponse) => {  
+      //for merge array below code
+         var mergeTwoArray = [...firstResponse.data, ...secondResponse.data]
+         setPosts(mergeTwoArray)
+     }))
       .catch(err => {
         console.log(err)
       })
@@ -39,10 +47,32 @@ function Projects() {
                     </div>
                 </div>
             </section>
-            <div class="container">
-      <div class="row">
+
+           <div class="container cardgroupmargin ">
+            <div class="row align-items-md-stretch">
+                    <div class="col-md-6">
+                        <div class="h-100 p-5 text-white bg-dark rounded-3">
+                            <h2>Change the background</h2>
+                            <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                            <button class="btn btn-outline-light" type="button">Example button</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="h-100 p-5 bg-light border rounded-3">
+                            <h2>Add borders</h2>
+                            <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+                            <button class="btn btn-outline-secondary" type="button">Example button</button>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+    <div class="container projectsmargin">
+      <div  className="row">
         {posts.map(post => (
-          <div class="col-xl-3 col-md-6 mb-4">
+          <div  key={post.id} 
+          class="col-xl-3 col-md-6 mb-4">
+             <a href={post.projectlink}>
             <div class="card border-0 shadow">
               <img key={post.id} src={post.projectimage} class="card-img-top" alt="..." />
               <div class="card-body text-center">
@@ -50,7 +80,9 @@ function Projects() {
                 <div key={post.id} class="card-text text-black-50">{post.projectdesc}</div>
               </div>
             </div>
-          </div>
+            </a>
+         
+          </div> 
         ))}
       </div>
     </div>

@@ -51,5 +51,112 @@
   }
 
   .about-content-backround{
-      background-color: #ff4700cf;
+      
+    background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
   }
+
+
+  .about-content-backround:hover {
+    background:
+    linear-gradient(rgb(223, 0, 0), transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, rgb(216, 118, 7), transparent);
+    background-blend-mode: screen;
+  }
+
+  .about-content-backroundsecond{
+    background:
+        linear-gradient(rgb(223, 0, 0), transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, rgb(216, 118, 7), transparent);
+    background-blend-mode: screen;
+  }
+  
+
+.underline {
+  text-decoration: none
+}
+
+.marginright{
+  margin-right: 100px;
+}
+
+.hover:hover {
+  
+  background-color: #FF1493;
+}
+
+.shadow:hover  {
+  box-shadow: 0 .1rem 10rem rgba(16, 76, 189, 0.5)!important;
+  background-color:  rgba(23, 10, 204, 0.801)!important;
+  color: white;
+}
+
+.card-groupmargin{
+ margin-top:100px
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  .marginright{
+    margin-right: 0px;
+  }
+  .about-content{
+    margin-top:5px!important
+  }
+
+  .z{
+    font-size:8vw!important
+  }
+  
+  .zx{
+    font-size:6vw!important
+  }
+
+}
+
+
+@media screen and (min-width:992px) and (max-width:1195px){
+  
+}
+
+
+
+@media screen and (min-width:500px) and (max-width:980px){
+  
+  .z{
+    font-size:5vw!important
+  }
+  
+  .zx{
+    font-size:4vw!important
+  }
+}
+
+
+@media only screen and (min-width: 980px) {
+  .z{
+    font-size:3vw;
+  }
+  
+  .zx{
+    font-size:2.5vw;
+  }
+  
+
+  .about-content{
+    margin-top:100px
+  }
+
+}
+
+
+
+
+
+

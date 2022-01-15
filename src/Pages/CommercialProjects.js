@@ -8,7 +8,7 @@ function CommercialProjects() {
   const [posts, setPosts] = useState([])
 
   useEffect( ()=>{
-    axios.get("https://portfoliougur.herokuapp.com/coaching")
+    axios.get("http://localhost:5002/commercial")
     .then(res=> {
       setPosts(res.data)
     })
@@ -32,20 +32,23 @@ function CommercialProjects() {
   </section>
   <div class="album py-5 bg-light">
     <div class="container">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-      {posts.map(post=> (
-        <div class="col">
-          <div class="card shadow-sm">
-          <img key={post.id} src={post.projectimage} alt="BigCo Inc. logo"/>
-            <div  style={{height: 200}} class="card-body">
-            <p class="card-text"  key={post.id}>Project: {post.projectselect}</p>
-              <p class="card-text"  key={post.id}>Project Name: {post.projectname}</p>
-              <p class="card-text"  key={post.id}>Description: {post.projectdesc}</p>
+    <div class="container">
+      <div class="row">
+        {posts.map(post => (
+          <div class="col-xl-3 col-md-6 mb-4">
+            <a href={post.projectlink}>
+            <div class="card border-0 shadow">
+              <img key={post.id} src={post.projectimage} class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h5 key={post.id} class="card-title mb-0">{post.projectname}</h5>
+                <div key={post.id} class="card-text text-black-50">{post.projectdesc}</div>
+              </div>
             </div>
+            </a>
           </div>
-        </div>
-         ))}
+        ))}
       </div>
+    </div>
     </div>
   </div>
 </div>

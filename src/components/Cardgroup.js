@@ -13,21 +13,19 @@ function Cardgroup(props) {
                     </div>
                     <div class="about-content-backround col-lg-6 pt-5 pt-lg-0">
                         <div class="about-content">
-                            <h3 class="font-weight-bold">Best Practice Learning</h3>
-                            <p>The best way to learn is to practice. Practices should go from easy to hard.
-                        I give my students simple tasks to build from scratch. Ready information is not permanent. Therefore, I tire my students in small projects. 
-                        When my students get answers to their questions, they learn.</p>
-                            <h3 class="font-weight-bold">How we can help</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc est justo, aliquam nec tempor
-                                fermentum, commodo et libero. Quisque et rutrum arcu. Vivamus dictum tincidunt magna id
-                                euismod. Nam sollicitudin mi quis orci lobortis feugiat. Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Nunc est justo, aliquam nec tempor fermentum, commodo et libero. Quisque et rutrum arcu. Vivamus dictum
-                                tincidunt magna id euismod. Nam sollicitudin mi quis orci lobortis feugiat.</p>
+                            <h1 className="z" >Responsive Text</h1>
+
+                            <p className="zx" >Resize the browser window to see how the text
+                             size scale the browser window to see how the text size scale the 
+                            browser window to see how the text size scale the browser window to see how the text size scales.</p>
+
+                            
+
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="card-group">
+            <div class="card-group card-groupmargin">
                 <div class="card">
                     <img class="card-img-top" src="https://www.mqvl.com/wp-content/uploads/2018/10/Custom-Website-Development-The-Samurai-Way.jpg" alt="Card cap" />
                     <div class="card-body">
@@ -56,48 +54,23 @@ function Cardgroup(props) {
                     </div>
                 </div>
             </div>
-            <hr class="featurette-divider" />
-            <div>
-                <div class="row">
-                    <div class="about-content-backround col-lg-6 pt-5 pt-lg-0">
-                        <div class="about-content">
-                            <h3 class="font-weight-bold">Web Solution</h3>
-                            <p>I produce fast and affordable solutions for your applications. I can advise and manage your projects. 
-                                I have many high quality friends in my big circle with whom I can do your projects together.</p>
-                            <h3 class="font-weight-bold">How we can help</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc est justo, aliquam nec tempor
-                                fermentum, commodo et libero. Quisque et rutrum arcu. Vivamus dictum tincidunt magna id
-                                euismod. Nam sollicitudin mi quis orci lobortis feugiat. Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Nunc est justo, aliquam nec tempor fermentum, commodo et libero. Quisque et rutrum arcu. Vivamus dictum
-                                tincidunt magna id euismod. Nam sollicitudin mi quis orci lobortis feugiat.</p>
-                        </div>
+
+            <div class="row card-groupmargin">
+                <div class="about-content-backroundsecond col-lg-6 pt-5 pt-lg-0">
+                    <div class="about-content">
+                        <h1 className="z" >Responsive Text</h1>
+                        <p className="zx" >Resize the browser window to see how the text
+                            size scale the browser window to see how the text size scale the
+                            browser window to see how the text size scale the browser window to see how the text size scales.</p>
                     </div>
-                    <div class="aboutimage col-lg-6">
-                        <div class="about-img">
-                            <img src="https://source.unsplash.com/7u5mwbu7qLg/500x350" class="img-fluid w-100 rounded" alt="" />
-                        </div>
+                </div>
+                <div class="aboutimage col-lg-6">
+                    <div class="about-img">
+                        <img src="https://source.unsplash.com/7u5mwbu7qLg/500x350" class="img-fluid w-100 rounded" alt="" />
                     </div>
                 </div>
             </div>
-
-            <hr class="featurette-divider" />
             <div className="container">
-                <div class="row align-items-md-stretch">
-                    <div class="col-md-6">
-                        <div class="h-100 p-5 text-white bg-dark rounded-3">
-                            <h2>Change the background</h2>
-                            <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
-                            <button class="btn btn-outline-light" type="button">Example button</button>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="h-100 p-5 bg-light border rounded-3">
-                            <h2>Add borders</h2>
-                            <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
-                            <button class="btn btn-outline-secondary" type="button">Example button</button>
-                        </div>
-                    </div>
-                </div>
                 <div class="row mb-2">
                     <div class="col-md-6">
                         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">

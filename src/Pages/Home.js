@@ -3,6 +3,10 @@ import Cardgroup from "../components/Cardgroup";
 import Header from "../components/Header";
 import Heading from "../components/Heading";
 import Footer from "../components/Footer";
+import { Wave } from 'react-animated-text';
+
+
+
 
 function Home() {
   return (
@@ -10,6 +14,14 @@ function Home() {
       <Header />
       <main className="overflow-hidden">
         <section class="bg-primary homepage-firstsection">
+          <div  className="animationtextsize"> <Wave
+           
+            text="Hi I`m Ugur"
+            effect="stretch"
+            effectChange={2}
+          /> </div>
+         
+
           <div class="container">
             <div class="row featurette home-content">
               <div class="col-md-7">
@@ -22,7 +34,7 @@ function Home() {
                   I help them implement it. You can always reach me.</p>
               </div>
               <div class="col-md-5">
-                <img className="homepage-graphic" style={{ width: 230, height: 230 }} src="https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_960_720.png" alt="Logo" />
+                <img className="homepage-graphic" style={{ width: 350, height: 350 }} src="https://cdn.pixabay.com/photo/2016/06/15/16/16/man-1459246_960_720.png" alt="Logo" />
               </div>
             </div>
           </div>
@@ -30,9 +42,10 @@ function Home() {
         <Heading />
         <Cardgroup />
       </main>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
+
 
 export default Home;

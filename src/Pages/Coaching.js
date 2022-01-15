@@ -9,7 +9,7 @@ function Mentoring() {
   const [posts, setPosts] = useState([])
 
   useEffect( ()=>{
-    axios.get("https://portfoliougur.herokuapp.com/coaching")
+    axios.get("http://localhost:5002/coaching")
     .then(res=> {
       setPosts(res.data)
     })
