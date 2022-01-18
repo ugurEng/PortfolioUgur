@@ -120,6 +120,19 @@
 
 }
 
+.nav-item:hover{
+  background-color:white ;
+  border-radius: 10px;
+}
+
+.nav-link{
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.nav-link:hover {
+  color: blue !important
+}
 
 @media screen and (min-width:992px) and (max-width:1195px){
   

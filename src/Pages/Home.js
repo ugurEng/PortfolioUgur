@@ -14,14 +14,15 @@ function Home() {
       <Header />
       <main className="overflow-hidden">
         <section class="bg-primary homepage-firstsection">
-          <div  className="animationtextsize"> <Wave
-           
+          
+          <div  className="animationtextsize"> 
+          <Wave
             text="Hi I`m Ugur"
             effect="stretch"
             effectChange={2}
-          /> </div>
-         
-
+          /> 
+          </div>
+          
           <div class="container">
             <div class="row featurette home-content">
               <div class="col-md-7">
@@ -38,6 +39,24 @@ function Home() {
               </div>
             </div>
           </div>
+          <div className="container">
+      <div class="row mt-">
+        <div class="col-xl-4 col-md-4"> 
+            <img src="https://img.icons8.com/ios/50/000000/react-native--v2.png"/>
+            <h1>React</h1>
+        </div>
+
+        <div class="col-xl-4 col-md-4"> 
+        <img src="https://img.icons8.com/ios/50/000000/typescript.png"/>
+            <h1>TypeScript</h1>
+        </div>
+        <div class="col-xl-4 col-md-4"> 
+        <img src="https://img.icons8.com/color/48/000000/nodejs.png"/>
+            <h1>Node.Js</h1>
+        </div>
+      </div>
+    </div>
+
         </section>
         <Heading />
         <Cardgroup />
