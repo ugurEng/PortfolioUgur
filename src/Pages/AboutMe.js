@@ -30,7 +30,6 @@ function AboutMe() {
                 </div>
             </section>
 
-
             <section class="section">
                 <div class="container">
                     <div class="row">
@@ -42,9 +41,10 @@ function AboutMe() {
                         <div class="col-lg-6 pt-5 pt-lg-0">
                             <div class="about-content">
                                 <h3 class="font-weight-bold">Introduction</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc est justo, aliquam nec tempor
-                                    fermentum, commodo et libero. Quisque et rutrum arcu. Vivamus dictum tincidunt magna id
-                                    euismod. Nam sollicitudin mi quis orci lobortis feugiat.</p>
+                                <p>I have been working as a frontend developer for 3 years. 
+                                  I try to make the best practice by following the latest technologies and structures.
+                                  I had the opportunity to work in many projects.
+                                  I have also mentored many students who are trying to learn coding, and I continue to do so.</p>
                                 <h3 class="font-weight-bold">How we can help</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc est justo, aliquam nec tempor
                                     fermentum, commodo et libero. Quisque et rutrum arcu. Vivamus dictum tincidunt magna id
@@ -56,55 +56,6 @@ function AboutMe() {
                     </div>
                 </div>
             </section>
-
-            <section class="mb-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="heading text-center text-capitalize font-weight-bold py-5">
-          <h2>our team</h2>
-        </div>
-      </div>
-      <div class="col-lg-3 col-sm-6">
-        <div class="card my-3 my-lg-0">
-          <img class="card-img-top" src="https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_960_720.png" alt="Card image cap"/>
-          <div class="card-body bg-gray text-center">
-            <h5 class="card-title">John Doe</h5>
-            <p class="card-text">Founder / CEO</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-sm-6">
-        <div class="card my-3 my-lg-0">
-          <img class="card-img-top" src="https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_960_720.png" alt="Card image cap"/>
-          <div class="card-body bg-gray text-center">
-            <h5 class="card-title">John Doe</h5>
-            <p class="card-text">Founder / CEO</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-sm-6">
-        <div class="card my-3 my-lg-0">
-          <img class="card-img-top" src="https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_960_720.png" alt="Card image cap"/>
-          <div class="card-body bg-gray text-center">
-            <h5 class="card-title">John Doe</h5>
-            <p class="card-text">Founder / CEO</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-sm-6">
-        <div class="card my-3 my-lg-0">
-          <img class="card-img-top" src="https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_960_720.png" alt="Card image cap"/>
-          <div class="card-body bg-gray text-center">
-            <h5 class="card-title">John Doe</h5>
-            <p class="card-text">Founder / CEO</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="features">
 	<div class="container">
 		<div class="row">

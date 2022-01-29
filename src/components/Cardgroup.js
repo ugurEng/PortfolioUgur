@@ -54,10 +54,11 @@ function Cardgroup(props) {
             <div class="row card-groupmargin">
                 <div class="about-content-backroundsecond col-lg-6 pt-5 pt-lg-0">
                     <div class="about-content">
-                        <h1 className="z" >Responsive Text</h1>
-                        <p className="zx" >Resize the browser window to see how the text
-                            size scale the browser window to see how the text size scale the
-                            browser window to see how the text size scale the browser window to see how the text size scales.</p>
+                        <h1 className="z" >CI CD Pipeline</h1>
+                        <p className="zx" >The most important step is that the systems we install reach the end user. 
+                        However, the affairs do not end there. 
+                        The system must be constantly monitored. 
+                        That's why we need some principles and steps to manage this process.</p>
                     </div>
                 </div>
                 <div class="aboutimage col-lg-6">

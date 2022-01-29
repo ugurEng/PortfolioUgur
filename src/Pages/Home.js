@@ -28,7 +28,7 @@ function Home() {
               <div class="col-md-7">
                 <h2 style={{ color: 'white' }} class="home-text">Easy Web Application Solution</h2>
                 <h2 style={{ color: 'white' }}>Mentoring&Coaching</h2>
-                <p style={{ color: 'white', marginTop: "50px" }} class="lead">Hi there, I am Ugur (Full Stack Front-End Web Developer.
+                <p style={{ color: 'white', marginTop: "50px" }} class="lead">Hi there, I am Ugur (Front-End Web Developer).
                   I am here to help you
                   I solve web application works of companies with my teammates.
                   I also give private lessons from time to time and solve students' questions.
