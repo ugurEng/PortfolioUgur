@@ -41,16 +41,10 @@ function AboutMe() {
                         <div class="col-lg-6 pt-5 pt-lg-0">
                             <div class="about-content">
                                 <h3 class="font-weight-bold">Introduction</h3>
-                                <p>I have been working as a frontend developer for 3 years. 
+                                <p className="aboutme-fontsize">I have been working as a frontend developer for 3 years. 
                                   I try to make the best practice by following the latest technologies and structures.
                                   I had the opportunity to work in many projects.
                                   I have also mentored many students who are trying to learn coding, and I continue to do so.</p>
-                                <h3 class="font-weight-bold">How we can help</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc est justo, aliquam nec tempor
-                                    fermentum, commodo et libero. Quisque et rutrum arcu. Vivamus dictum tincidunt magna id
-                                    euismod. Nam sollicitudin mi quis orci lobortis feugiat. Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit. Nunc est justo, aliquam nec tempor fermentum, commodo et libero. Quisque et rutrum arcu. Vivamus dictum
-                                    tincidunt magna id euismod. Nam sollicitudin mi quis orci lobortis feugiat.</p>
                             </div>
                         </div>
                     </div>
@@ -65,10 +59,11 @@ function AboutMe() {
 						<div class="feature-icon mb-4">
                         <img src="https://img.icons8.com/ios-filled/50/000000/phone-disconnected.png"/>
 						</div>
-						<span>24 Hours Service</span>
+						<span>Online Service</span>
 						<h4 class="mb-3">Online Appoinment</h4>
-						<p class="mb-4">Get ALl time support for emergency.We have introduced the principle of family medicine.</p>
-						<a href="appoinment.html" class="btn btn-main btn-round-full">Make a appoinment</a>
+						<p class="mb-4">If you have any question, we can discuss on online</p>
+            <p class="mb-4">E-mail: ug.sagsoz@gmail.com</p>
+					
 					</div>
 				
 					<div class="feature-item mb-5 mb-lg-0">
@@ -78,9 +73,8 @@ function AboutMe() {
 						<span>Timing schedule</span>
 						<h4 class="mb-3">Working Hours</h4>
 						<ul class="w-hours list-unstyled">
-							<li class="d-flex justify-content-between">Sun - Wed : <span>8:00 - 17:00</span></li>
+							<li class="d-flex justify-content-between">Mon - Wed : <span>8:00 - 17:00</span></li>
 							<li class="d-flex justify-content-between">Thu - Fri : <span>9:00 - 17:00</span></li>
-							<li class="d-flex justify-content-between">Sat - sun : <span>10:00 - 17:00</span></li>
 						</ul>
 					</div>
 				
@@ -88,9 +82,9 @@ function AboutMe() {
 						<div class="feature-icon mb-4">
                         <img src="https://img.icons8.com/ios-filled/50/000000/phone-disconnected.png"/>
 						</div>
-						<span>Emegency Cases</span>
-						<h4 class="mb-3">1-800-700-6200</h4>
-						<p>Get ALl time support for emergency.We have introduced the principle of family medicine.Get Conneted with us for any urgency .</p>
+						<span>Emegency Question</span>
+						<h4 class="mb-3">07388547047</h4>
+						<p>Get ALl time support for emergency.Get Conneted with us for any urgency .</p>
 					</div>
 				</div>
 			</div>

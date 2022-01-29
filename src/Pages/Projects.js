@@ -67,7 +67,7 @@ function Projects() {
                     </div>
                 </div>
              </div>
-    <h1>Commercial Projects</h1>
+    <h1 className="Projects-h1-margin">Commercial Projects</h1>
     <div class="container projectsmargin">
       <div  className="row">
         {commercial.map(post => (
@@ -86,7 +86,7 @@ function Projects() {
         ))}
       </div>
     </div>
-    <h1>Mentoring Projects</h1>
+    <h1 className="Projects-h1-margin">Mentoring Projects</h1>
     <div class="container projectsmargin">
       <div  className="row">
         {coaching.map(post => (
