@@ -10,10 +10,8 @@ import { Link } from 'react-router-dom';
 
 
 function Projects() {
-  const [posts, setPosts] = useState([])
-
-
-
+  const [commercial, setCommercial] = useState([])
+  const [coaching, setCoaching] = useState([])
 
   useEffect(() => {
     axios.all([axios.get("http://localhost:5002/coaching"),
@@ -22,9 +20,8 @@ function Projects() {
      .then(axios.spread((firstResponse, secondResponse) => {  
       //for merge array below code
          var mergeTwoArray = [secondResponse.data,firstResponse.data]
-         setPosts(mergeTwoArray)
-         console.log(posts[0])
-
+         setCommercial(mergeTwoArray[0])
+         setCoaching(mergeTwoArray[1])
      }))
       .catch(err => {
         console.log(err)
@@ -73,7 +70,7 @@ function Projects() {
     <h1>Commercial Projects</h1>
     <div class="container projectsmargin">
       <div  className="row">
-        {posts[0].map(post => (
+        {commercial.map(post => (
           <div  key={post.id} 
           class="col-xl-3 col-md-6 mb-4">
              <a href={post.projectlink}>
@@ -85,7 +82,6 @@ function Projects() {
               </div>
             </div>
             </a>
-         
           </div> 
         ))}
       </div>
@@ -93,7 +89,7 @@ function Projects() {
     <h1>Mentoring Projects</h1>
     <div class="container projectsmargin">
       <div  className="row">
-        {posts[1].map(post => (
+        {coaching.map(post => (
           <div  key={post.id} 
           class="col-xl-3 col-md-6 mb-4">
              <a href={post.projectlink}>
@@ -105,7 +101,6 @@ function Projects() {
               </div>
             </div>
             </a>
-         
           </div> 
         ))}
       </div>
