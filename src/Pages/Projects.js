@@ -6,9 +6,6 @@ import axios from "axios"
 import { Link } from 'react-router-dom';
 
 
-
-
-
 function Projects() {
   const [commercial, setCommercial] = useState([])
   const [coaching, setCoaching] = useState([])
