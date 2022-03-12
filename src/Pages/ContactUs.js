@@ -2,10 +2,6 @@ import React from "react";
 import Header from "../components/Header";
 import './ContactUs.css';
 import Footer from "../components/Footer";
-import{ init } from '@emailjs/browser';
-init("umfp9Y597qGNOlkIl");
-
-
 
 
 function ContactUs() {
@@ -32,22 +28,22 @@ function ContactUs() {
                         <div class="col-lg-4 col-md-6">
                             <div class="contact-block mb-4 mb-lg-0">
                                 <img src="https://img.icons8.com/ios/50/4a90e2/phone-disconnected.png" />
-                                <h5>Call Us</h5>
-                                +823-4565-13456
+                                <h5>Call Me</h5>
+                                07388547047
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <div class="contact-block mb-4 mb-lg-0">
                                 <img src="https://img.icons8.com/ios/50/4a90e2/email-open.png" />
                                 <h5>Email Us</h5>
-                                contact@mail.com
+                                ug.sagsoz@gmail.com
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12">
                             <div class="contact-block mb-4 mb-lg-0">
                                 <img src="https://img.icons8.com/ios-filled/50/4a90e2/marker.png" />
                                 <h5>Location</h5>
-                                North Main Street,Brooklyn Australia
+                               Cradley Enterprise Center, Cradley Heath, Birmingham
                             </div>
                         </div>
                     </div>
@@ -58,10 +54,9 @@ function ContactUs() {
                     <div class="row justify-content-center">
                         <div class="col-lg-6">
                             <div class="section-title text-center">
-                                <h2 class="text-md mb-2">Contact us</h2>
+                                <h2 class="text-md mb-2">Contact Me</h2>
                                 <div class="divider mx-auto my-4"></div>
-                                <p class="mb-5">Laboriosam exercitationem molestias beatae eos pariatur, similique, excepturi mollitia sit
-                                    perferendis maiores ratione aliquam?</p>
+                                <p class="mb-5">If you have any question, please do not hesitate to contant me.</p>
                             </div>
                         </div>
                     </div>

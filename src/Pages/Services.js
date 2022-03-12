@@ -35,23 +35,22 @@ function Services() {
       <div class="col-lg-4 col-md-6">
         <div class="service-box-2 mb-5">
           <span>01</span>
-          <h4>Best <br/>Analytics Audits</h4>
-          <p class="mb-0">We have had the pleasure of partnering with a wide array of brands ranging from tech startups to Fortune 500 enterprises.</p>
+          <h4>Custom <br/>Shopify Project</h4>
+          <p class="mb-0">I am setting up private e-commerce sites with suitable budget.I can code the designs you want.</p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="service-box-2 mb-5">
           <span>02</span>
-          <h4>Deep <br/>Technical SEO</h4>
-          <p class="mb-0">Over the last decade, we have had the pleasure of partnering with a wide array of brands ranging
-            enterprises.</p>
+          <h4>React <br/>Web Application</h4>
+          <p class="mb-0">I can prepare web projects with the features you want with my team</p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="service-box-2 mb-5">
           <span>03</span>
-          <h4>Modern <br/>Keyword Analysis</h4>
-          <p class="mb-0">Over the last decade a wide array of brands ranging from tech startups to Fortune 500 enterprises.</p>
+          <h4>Web <br/>Maintenance</h4>
+          <p class="mb-0">I can do regular monthly maintenance, your applications.</p>
         </div>
       </div>
     </div>
