@@ -24,7 +24,7 @@ function Cardgroup(props) {
             </div>
             <div class="card-group card-groupmargin">
                 <div class="card">
-                    <img class="card-img-top" src="https://www.mqvl.com/wp-content/uploads/2018/10/Custom-Website-Development-The-Samurai-Way.jpg" alt="Card cap" />
+                    <img class="card-img-top" src="https://www.spinutech.com/webres/Image/web-design-development/articles/Web%20Dev-Blog.png" alt="Card cap" />
                     <div class="card-body">
                         <h5 class="card-title">Web Development</h5>
                         <p class="card-text">Customers should not return when they enter the website.

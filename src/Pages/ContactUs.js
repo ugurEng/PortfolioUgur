@@ -2,9 +2,13 @@ import React from "react";
 import Header from "../components/Header";
 import './ContactUs.css';
 import Footer from "../components/Footer";
+import{ init } from '@emailjs/browser';
+init("umfp9Y597qGNOlkIl");
+
+
+
 
 function ContactUs() {
-
     return (
       <div>
             <div> <Header></Header></div>
