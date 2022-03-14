@@ -66,28 +66,28 @@ function Services() {
 
       <div class="col-lg-7 pl-4">
         <div class="mb-5">
-          <h3 class="mb-4">We are making beautiful <br/>design layout business site</h3>
+          <h3 class="mb-4">I am creating beautiful <br/>design layout business websites and web aplication</h3>
           <p>We craft beautiful website layout from scratch.You need not to worry about site design and other technial issue.We provide these attractive service as a bonus.Let's have atalk together for your next project.</p>
         </div>
 
         <ul class="about-list">
           <li>
-            <h5 class="mb-2"><i class="icofont icofont-check-circled"></i>Responsive site</h5>
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
+            <h5 class="mb-2"><i class="icofont icofont-check-circled"></i>Responsive Web Pages</h5>
+            <p>Excellent effective design for mobile users</p>
           </li>
 
           <li>
-            <h5 class="mb-2"><i class="icofont icofont-check-circled"> </i> Latest bootstrap 4</h5>
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
+            <h5 class="mb-2"><i class="icofont icofont-check-circled"> </i> Latest Tech</h5>
+            <p>I write my codes in the latest technology for the speed of data.</p>
           </li>
 
           <li>
-            <h5 class="mb-2"><i class="icofont icofont-check-circled"> </i>Modern design</h5>
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
+            <h5 class="mb-2"><i class="icofont icofont-check-circled"> </i>Shopify eCommerce</h5>
+            <p>I can create e-commerce websites in any design you want.</p>
           </li>
           <li>
-            <h5 class="mb-2"> <i class="icofont icofont-check-circled"> </i>Working contact form</h5>
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
+            <h5 class="mb-2"> <i class="icofont icofont-check-circled"> </i>Maintenance</h5>
+            <p>I can fix problems in web applications. I can do regular monthly maintenance.</p>
           </li>
         </ul>
       </div>
