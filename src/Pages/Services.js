@@ -70,7 +70,7 @@ function Services() {
           <p>We craft beautiful website layout from scratch.You need not to worry about site design and other technial issue.We provide these attractive service as a bonus.Let's have atalk together for your next project.</p>
         </div>
 
-        <ul class="about-list">
+        <ul class="about-list list-unstyled">
           <li>
             <h5 class="mb-2"><i class="icofont icofont-check-circled"></i>Responsive Web Pages</h5>
             <p>Excellent effective design for mobile users</p>

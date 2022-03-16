@@ -11,8 +11,8 @@ function Projects() {
   const [coaching, setCoaching] = useState([])
 
   useEffect(() => {
-    axios.all([axios.get("http://localhost:5002/coaching"),
-           axios.get("http://localhost:5002/commercial")
+    axios.all([axios.get("https://portfoliougur.herokuapp.com/coaching/"),
+           axios.get("https://portfoliougur.herokuapp.com/commercial/")
        ])
      .then(axios.spread((firstResponse, secondResponse) => {  
       //for merge array below code
