@@ -25,7 +25,7 @@ function Admin() {
       projectlink: data.projectlink,
 
     };
-    axios.post(`http://localhost:5002/commercial/add`, postData)
+    axios.post(`https://portfoliougur.herokuapp.com/commercial/add`, postData)
       .then(res => {
         console.log(res.data)
         var x = document.getElementById("adsa");
