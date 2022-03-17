@@ -23,11 +23,11 @@ function Mentoring() {
   <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light" > Loren ipsum otklere eroere</h1>
-        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <h1 class="fw-light" > Mentoring Projects</h1>
+        <p class="lead text-muted">The best learning method is to learn by doing. After taking a quick glance at the theory, it is necessary to immediately go into practice. Remember,
+         we are alone while writing the codes. Just build together with your teammates.</p>
         <p>
-          <a href="/" class="btn btn-primary my-2">Main call to action</a>
-          <a href="/" class="btn btn-secondary my-2">Secondary action</a>
+          <a href="/" class="btn btn-primary my-2">Back to Homepage</a>
         </p>
       </div>
     </div>
