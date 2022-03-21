@@ -9,6 +9,11 @@ import { Wave } from 'react-animated-text';
 
 
 function Home() {
+
+  fetch('https://portfoliougur.herokuapp.com/coaching/')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
   return (
     <div>
       <Header />
