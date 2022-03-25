@@ -13,6 +13,7 @@ import AdminShopify from './Dasboard/AdminShopify';
 import ContactUs from './Pages/ContactUs';
 import AboutMe from './Pages/AboutMe';
 import Services from './Pages/Services';
+import Hackernews from './Pages/Hackernews';
 import Projectpage from './Pages/Projectpage';
 
 function App() {
@@ -20,19 +21,20 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route path="/" exact component={Home}/>
-          <Route path="/Projects.js" exact component={Projects}/>
-          <Route path="/Coaching.js" component={Coaching}/>
-          <Route path="/Login.js" component={Login}/>
-          <Route path="/Commercial.js" component={Commercial}/>
-          <Route path="/AddProject.js" component={AddProject}/>
-          <Route path="/AdminMentoring.js" component={AdminMentoring}/>
-          <Route path="/AdminMERN.js" component={AdminMERN}/>
-          <Route path="/AdminShopify.js" component={AdminShopify}/>
-          <Route path="/ContactUs.js" component={ContactUs}/>
-          <Route path="/AboutMe.js" component={AboutMe}/>
-          <Route path="/Services.js" component={Services}/>
-          <Route path="/Projectpage.js/:id" component={Projectpage}/>
+          <Route path="1/" exact component={Home}/>
+          <Route path="/Projects1.js" exact component={Projects}/>
+          <Route path="/Coaching1.js" component={Coaching}/>
+          <Route path="/Login.js1" component={Login}/>
+          <Route path="/Commercial1.js" component={Commercial}/>
+          <Route path="/AddProject1.js" component={AddProject}/>
+          <Route path="/AdminMentoring1.js" component={AdminMentoring}/>
+          <Route path="/AdminMERN1.js" component={AdminMERN}/>
+          <Route path="/AdminShopify1.js" component={AdminShopify}/>
+          <Route path="/ContactUs1.js" component={ContactUs}/>
+          <Route path="/AboutMe1.js" component={AboutMe}/>
+          <Route path="/Services1.js" component={Services}/>
+          <Route path="/Hackernews.js" component={Hackernews}/>
+          <Route path="/Projectpage1.js/:id" component={Projectpage}/>
         </Switch>
       </div>
     </Router>
