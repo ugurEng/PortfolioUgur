@@ -16,7 +16,7 @@ function ContactUs() {
                         <div class="col-lg-9 col-md-12 col-12 text-center">
                             <div class="page-banner-content">
                                 <h1 class="display-4 font-weight-bold">Got a question?</h1>
-                                <p>We'd love to talk about how we can help you.</p>
+                                <p>We'd love to talk about how we can help you...</p>
                             </div>
                         </div>
                     </div>
