@@ -33,7 +33,7 @@ function Admin() {
         function myGreeting() {
           x.style.display = "none";
         }
-        setTimeout(myGreeting, 3000)
+        setTimeout(myGreeting, 3100)
       })
 
       console.log(data)
