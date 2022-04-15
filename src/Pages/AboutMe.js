@@ -83,7 +83,7 @@ function AboutMe() {
                         <img src="https://img.icons8.com/ios-filled/50/000000/phone-disconnected.png"/>
 						</div>
 						<span>Emegency Question</span>
-						<h4 class="mb-3">07388547047</h4>
+						<h4 class="mb-3">+44 07388547047</h4>
 						<p>Get ALl time support for emergency.Get Conneted with us for any urgency .</p>
 					</div>
 				</div>
